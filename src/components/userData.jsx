@@ -5,7 +5,7 @@ function UserData() {
   const user = useSelector((state) => state.user.userData);
   // const userData = localStorage.getItem('userData')
   return (
-    <div>
+    <div style={{marginTop:'100px'}}>
       {/* UserData: {JSON.stringify(userData)} */}
       <ul>
         <li>User Data = {JSON.stringify(user)}</li>

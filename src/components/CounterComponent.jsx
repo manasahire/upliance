@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import './counter.css'
 
 function Counter() {
   const [count, setCount] = useState(0);
@@ -28,13 +29,15 @@ function Counter() {
 
   return (
     <div
+    className="counter-contioner"
       style={{
         backgroundColor: getBackgroundColor(),
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        flexDirection: "row",
-        marginTop: "40%",
+        flexDirection: "column",
+        marginTop: "30%",
+        height:'500px'
       }}
     >
       <h1>Count: {count}</h1>
