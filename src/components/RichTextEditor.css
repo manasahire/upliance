@@ -5,6 +5,7 @@
     background-color: gray;
     border-radius: 0.25rem; /* Bootstrap-like rounded corners */
     overflow: hidden; /* Ensure the content fits within the specified dimensions */
+    margin-top: 250px;
   }
   
   .ql-container {

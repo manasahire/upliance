@@ -33,7 +33,8 @@ function Counter() {
         display: "flex",
         justifyContent: "center",
         alignItems: "center",
-        flexDirection: "column",
+        flexDirection: "row",
+        marginTop: "40%",
       }}
     >
       <h1>Count: {count}</h1>
