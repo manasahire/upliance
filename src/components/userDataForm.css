@@ -1,0 +1,9 @@
+/* src/components/UserDataForm.css */
+.user-data-form {
+    border: 2px solid #007bff; /* Blue border */
+    background-color: #f8f9fa; /* Light background */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+  }
+  
+  /* Add more custom styles as needed */
+  

@@ -1,0 +1,13 @@
+/* src/components/RichTextEditor.css */
+.rich-text-editor {
+    width: 500px;
+    height: 500px;
+    background-color: gray;
+    border-radius: 0.25rem; /* Bootstrap-like rounded corners */
+    overflow: hidden; /* Ensure the content fits within the specified dimensions */
+  }
+  
+  .ql-container {
+    height: 100% !important; /* Ensure the editor takes up the full height of the container */
+  }
+  
